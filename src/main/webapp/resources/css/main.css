@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+.formtable{
+	width:400px;
+	border:1px solid gray;
+	padding:15px;
+}
+
+.loginForm{
+	margin:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:300px;
+	margin-top:100px;
+}
+
+.inputBox{
+	width:300px;
+	height:40px;
+	margin:10px;
+	border-radius:5px;
+}
+
+.loginBtn{
+	width:300px;
+	margin:10px;
+	height:40px;
+	background-color:black;
+	color:white;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+.homeContainer{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.homeHeader{
+	background-color:black;
+	color:white;
+	width:100%;
+	padding:4px;
+}
+
+.homeMenu{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:50px;
+}
+
+.homeMenu a{
+	margin: 0px 10px;
+	text-decoration:none;
+	color:black;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.homeMenu a:visited{
+	color:black;
+}
+
+.homeMenu a:hover{
+	color:white;
+	background-color:black;
+}
+
+.tableDiv{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+
+.title{
+	margin-bottom:100px;
+}
+
+#offer{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.alert{
+	color:red;
+}
+	
+	
+
